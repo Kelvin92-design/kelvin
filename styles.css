@@ -1,0 +1,169 @@
+/* Reset some default styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: #3498DB;
+    color: white;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+/* Navigation Menu */
+nav ul.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+    margin: 0;
+}
+
+nav ul.menu li {
+    margin: 0 15px;
+}
+
+nav ul.menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul.menu li a:hover {
+    color: #3498DB;
+}
+
+/* Main Content Section */
+.content {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Info Section Styling */
+.info {
+    max-width: 600px;
+    margin-right: 20px;
+}
+
+.info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.info p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/* Contact Button */
+.contact-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498DB;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.contact-btn:hover {
+    background-color: #2980B9;
+}
+
+/* Profile Image */
+.profile-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Image Slider */
+.slider-container {
+    position: relative;
+    max-width: 400px;   /* Smaller slider width */
+    max-height: 250px;   /* Smaller slider height */
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.slider-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.slide {
+    display: none;
+}
+
+/* Navigation Arrows */
+.slider-container .prev, .slider-container .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 50%;
+}
+
+.slider-container .prev {
+    left: 10px;
+}
+
+.slider-container .next {
+    right: 10px;
+}
+
+.slider-container .prev:hover, .slider-container .next:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+footer .social-media {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer .social-media li {
+    margin: 0 10px;
+}
+
+footer .social-media li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer .social-media li a:hover {
+    color: #3498DB;
+}
